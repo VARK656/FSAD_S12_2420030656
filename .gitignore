@@ -1,0 +1,69 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Node modules (Frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+.next/
+dist/
+build/
+
+# Java/Maven (Backend)
+target/
+*.class
+*.jar
+*.war
+*.ear
+.classpath
+.project
+.settings/
+/bin/
+
+# Gradle
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Security & Credentials
+*.pem
+*.key
+*.keystore
+*.p12
+secrets.yml
+secrets.yaml
+credentials.json
+
+# Compiled files
+*.pyc
+__pycache__/
+
+# Temporary files
+tmp/
+temp/
